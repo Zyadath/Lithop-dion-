@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(189, 174, 157);
+}
+.playfair-display-text{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 12px;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    background-attachment: fixed;
+    background-color: rgb(212, 212, 183);
+    border-radius: 40px;
+    margin: 25%;
+    width: 320px;
+    height: auto;
+    padding:20px;
+    box-shadow: 10px 10px 10px 10px rgba(139, 132, 132, 0.75);
+    align-items: center;
+}
+p{
+    margin: -5px;
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+}
+.photo{
+    display: inline;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+}
+#titre{
+    line-height: 1em;
+}
+.bas{
+    margin-top: 30px;
+    font-weight: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: inherit;
+}
+h4{
+    margin-left: 07px;
+}
+button{
+    justify-content: center;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: -45px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-image: url('dems.png');
+    color: aliceblue;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.7);
+}

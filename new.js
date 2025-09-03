@@ -1,0 +1,35 @@
+const phrases = [
+    "Le monde....un pavillon de haine.",
+    "Quoi qu'il arrive je resterai moi meme.",
+    "J'ai tellement péché faut que je prie.",
+    "Tu vis par principe, tu ris mais t'es triste.",
+    "La vie que ta choisie n'est peut etre pas la bonne.",
+    "C'est ni l'enfer ni le paradis, car dans tous les cas tu meurs à la fin.",
+    "Ce de quoi t'es fait, tu ne peux pas le fuire.",
+    "T'as plusieurs reves mais pas d'objectifs, c'est ça qui fait que t'es toujours au meme endroit.",
+    "Tu fais rien mais prie quasi tous les jours, tu te mens en disant qu'tu vas tout niquer....un athée qui taffe quasi tous les jours aura toujours plu d'opportunités.",
+    "Faut croire en Dieu mais surtout croire en soi, car Dieu la mort, il ne la connait pas.",
+    "Fais de l'argent mais gaspille pas ta voix.",
+    "Tu fuis la vie, tu fuis la mort, tu te fuis toi meme.",
+    "Y'a plus d'étoiles ce soir dans le ciel.",
+    "Les fleurs fanent y'a plus de chrysanthèmes.",
+    "La vérité est un noir désir, car quand elle giffle elle prend la vie.",
+    "C'est quoi la vie si ce n'est la mort que l'on nous accorde pour etre en vie?",
+    "C'est tous ceux en qui nous croyons qui finissent par nous défini.",
+    "Cherche la perfection pour fuir la réalité.",
+    "Le vrai problème c'est qu'à  chaque fois c'est le meme problème.",
+    "Je serai ton paradis si l'enfer est l'autre.",
+    "Viens dans ma tete ne dis plus un mot.",
+    "Y'a une différence entre tourner la page et baisser les bras.",
+    "Un 'tiens' vaut mieux que deux 'tu l'auras'.",
+    "Suis moi, je te veux pas, fuis moi je te veux toi.",
+    "Milles latences entre ce que je pense et ce que je dis.",
+    "Milles latences entre [.....] ce que j'obtiens et ce que je vise.",
+    "Je sais ce que tu veux vraiment, quand tu dis que tu n'sais plus c'que tu veux vraiment.",
+    "Je serai toujours un vrai négro.",
+    "J'ai bruler tes lettres dans un feu de bois.",
+];
+function btn() {
+    const index = Math.floor(Math.random() * phrases.length);
+    document.getElementById("phrase").textContent = phrases[index];
+};
